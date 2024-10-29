@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+:root{
+    --main-color:blue;
+    --secondary-color:#f6f6f6;
+    --basic-color:#f1f5f9;
+    --active-color: #eee;
+    --blue-color:#0075ff;
+    --red-color: #f44336;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+}
+html::-webkit-scrollbar ,
+.input-thought::-webkit-scrollbar,
+.projects-section::-webkit-scrollbar{
+    width: 15px;
+    right: 0;
+}
+
+html::-webkit-scrollbar-thumb,
+.input-thought::-webkit-scrollbar-thumb,
+.projects-section::-webkit-scrollbar-thumb {
+    background-color: var(--blue-color);
+}
+
+html::-webkit-scrollbar-track,
+.input-thought::-webkit-scrollbar-track,
+.projects-section::-webkit-scrollbar-track {
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+.page-header{
+    color: cadetblue;
+    padding: 30px;
+    font-weight: bold;
+    
+}
+/*start dashboard page*/
+
+.sections-container{
+    flex-wrap: wrap;
+    background-color: white;
+}
+.section{
+    position: relative;
+    border: 2px solid wheat;
+    border-radius: 25px;
+    background-color: white;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-head{
+    color: cadetblue;
+    font-weight: bold;
+}
+.section p{
+    color: gray;
+}
+.welcome-head {
+    position: relative;
+    background-color: #eee;
+    width: calc(100% + 31px);
+    margin-left: -15.5px;
+    margin-top: -18px;
+    padding: 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding-bottom: 20px;
+}
+.welcome-image{
+    position: absolute;
+    width: 150px;
+    left: 100%;
+    top: 10%;
+    transform: translate(-120%, 0);
+}
+.welcome-avatar{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 100%;
+    left: 5%;
+    transform: translate(0,-50%);
+    border: 3px solid #80808036;
+    border-radius: 50%;
+}
+.welcome-mid{
+    padding-top: 30px;
+    margin-top: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: -15px;
+    width: calc(100% + 31px);
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.welcome-mid div h2{
+    font-size: 15px !important;
+    text-align: center !important;
+}
+.welcome-mid div p{
+    text-align: center !important;
+}
+/*Charts*/
+.charts {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .charts-card {
+    color: white;
+    background-color: #A1F;
+    margin-bottom: 20px;
+    padding: 25px;
+    box-sizing: border-box;
+    -webkit-column-break-inside: avoid;
+    border-radius: 5px;
+    box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .chart-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /*end charts*/
+.card{
+    color: white!important;
+    cursor: pointer;
+}
+.total{
+    background-color: black;
+}
+.accepted{
+    background-color: var(--green-color);
+}
+.pending{
+    background-color: gold;
+}
+.done{
+    background-color: rebeccapurple;
+}
+.order-svg{
+    width: 50px !important;
+}
+.btn{
+    width: fit-content;
+    border: none;
+}
+.projects-section{
+    overflow-x: scroll;
+    position: relative;
+    border: 2px solid wheat;
+    border-radius: 25px;
+    background-color: white;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    min-width: 1000px!important;
+    color: white;
+}
+thead td{
+    font-weight: bold;
+    background-color: #0c1527;
+}
+tbody img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+tbody img:not(:first-child) {
+    margin-left: -15px;
+}
+tbody img:hover {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+td{
+    font-size: 15px;
+    padding: 15px;
+    background-color: #263043;
+    width: fit-content;
+    text-align: center;
+}
+.products-cell{
+    max-width: 200px;
+    overflow-x: scroll;
+}
+.products-cell::-webkit-scrollbar{
+    display: none;
+}
+.details , .details:hover , .details:focus{
+    background-color: var(--blue-color);
+    color: white;
+    box-shadow: none;
+}
+.Pending , .Pending:hover, .Pending:focus{
+    background-color: var(--orange-color);
+    color: white;
+    box-shadow: none;
+}
+.Completed , .Completed:hover , .Completed:focus{
+    background-color: var(--green-color);
+    color: white;
+    box-shadow: none;
+}
+.Rejected , .Rejected:hover , .Rejected:focus{
+    background-color: var(--red-color);
+    color: white;
+    box-shadow: none;
+}
+/*end dashboard page*/

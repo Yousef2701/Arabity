@@ -1,0 +1,212 @@
+﻿@model ArabityAuth.ViewModel.IdVM
+
+@using Microsoft.AspNetCore.Authorization;
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@inject IAuthorizationService Athorize
+@{
+    AuthorizationResult authorizationResult = await Athorize.AuthorizeAsync(User, "CustomerRole");
+}
+@{
+    AuthorizationResult authorizationResult1 = await Athorize.AuthorizeAsync(User, "StoreRole");
+}
+@{
+    AuthorizationResult authorizationResult2 = await Athorize.AuthorizeAsync(User, "WorkshopRole");
+}
+
+@{
+    Layout = "_None";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/all.min.css">
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:wght@100;300;400;500;700;900&family=Sigmar+One&display=swap" rel="stylesheet">
+    <title>Contact Us</title>
+</head>
+<body>
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <header class="header d-flex row justify-content-around align-items-baseline">
+            <img class="navbar-brand col-3 logo" src="~/image/Logo.png" style="width: 175px;margin-top: auto;margin-bottom: auto;margin-left: -100px;" />
+            <nav class="header-nav col-6 d-flex justify-content-end align-items-center">
+                <div class="dropdown m-2">
+                    <button id="card-btn" class="btn shop" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-three-dots" viewBox="0 0 16 16">
+                            <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                        </svg>
+                    </button>
+                    <ul class="dropdown-menu shop-menu menu">
+                        <li class="list-group-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Workshops" asp-action="AllWorkshops">Workshops</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Stores" asp-action="AllStores">Stores</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                        </li>
+
+                    </ul>
+                </div>
+                @if (authorizationResult.Succeeded)
+                {
+                    <div class="dropdown m-2">
+                        <button id="card-btn" class="btn shop dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart4"
+                         viewBox="0 0 16 16">
+                                <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                            </svg>
+                        </button>
+                        <ul id="shop" class="dropdown-menu shop-menu">
+                            <style>
+                                .close {
+                                    border: none;
+                                    background-color: transparent;
+                                }
+
+                                    .close:hover {
+                                        color: #f44336 !important;
+                                    }
+                            </style>
+                            @foreach (ArabityAuth.ViewModel.CartVM storeProduct in ViewBag.CartProduct)
+                            {
+                                <li class="list-group-item d-flex justify-content-between lh-sm">
+                                    <div>
+                                        <h6 class="my-0">@Html.DisplayFor(modelItem => storeProduct.Name)</h6>
+
+                                        <small class="text-muted">@Html.DisplayFor(modelItem => storeProduct.ProductQuantity) pieces</small>
+                                    </div>
+                                    <div>
+                                        <form asp-controller="Home" asp-action="DeleteFromCart">
+                                            <span id="price" class="text-muted">@Html.DisplayFor(modelItem => storeProduct.TotalPrice) LE</span>
+                                            <input asp-for="ProductParcode" id="clicked" hidden value="@storeProduct.ProductParcode" />
+                                            <input type="submit" class="close btn-danger" value=" Del" aria-label="Close" />
+                                        </form>
+                                    </div>
+                                </li>
+                            }
+
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Total (LE)</span>
+                                <div>
+                                    <form asp-controller="Home" asp-action="DeleteAllFromCart">
+                                        <strong> @ViewBag.Total LE</strong>
+                                        <input type="submit" class="close btn-danger" value=" Del" aria-label="Close" />
+                                    </form>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                @* <input class="contact" id="confirm" style="width: 100%;" type="submit" value="Confirm Order"/>*@
+                                <form class="buy-now" style="width: 100%;" asp-controller="Orders" asp-action="ConfirmOrder" method="post">
+                                    <input class="contact" type="submit" value="Confirm Order" />
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                }
+                <div class="dropdown m-2">
+                    <button id="card-btn" class="btn shop dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img class="acount-image" src="~/Uploads/@ViewBag.img" alt="">
+                    </button>
+                    <ul class="dropdown-menu shop-menu menu">
+                        @if (authorizationResult.Succeeded)
+                        {
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageCustomer" asp-action="ViewCustomerData">Personal Data</a>
+                            </li>
+                        }
+
+                        @if (authorizationResult1.Succeeded)
+                        {
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageStore" asp-action="ViewStoreData">Personal Data</a>
+                            </li>
+                        }
+
+                        @if (authorizationResult2.Succeeded)
+                        {
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageWorkshop" asp-action="ViewWorkshopData">Personal Data</a>
+                            </li>
+                        }
+
+                        <li class="list-group-item red">
+                            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/ChangePassword">Change Password</a>
+                        </li>
+
+                        @if (authorizationResult.Succeeded)
+                        {
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageCustomer" asp-action="UpdateCustomerData">Update Data </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a id="deleteAccount" class="nav-link text-dark">Delete Account</a>
+                                <a id="delete" class="d-none nav-link text-dark" asp-area="" asp-controller="ManageCustomer" asp-action="DeleteCustomerAccount">Delete Account</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageCustomer" asp-action="Favourite">Favourites</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageCustomer" asp-action="My_Orders">My Orders</a>
+                            </li>
+                        }
+                        @if (authorizationResult1.Succeeded)
+                        {
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageStore" asp-action="UpdateStoreData">Update Data</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a id="deleteAccount" class="nav-link text-dark">Delete Account</a>
+                                <a id="delete" class="d-none d-none nav-link text-dark" asp-area="" asp-controller="ManageStore" asp-action="DeleteStoreAccount">Delete Account</a>
+                            </li>
+                        }
+                        @if (authorizationResult2.Succeeded)
+                        {
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageWorkshop" asp-action="UpdateWorkshopData">Update Data</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a id="deleteAccount" class="nav-link text-dark">Delete Account</a>
+                                <a id="delete" class="d-none nav-link text-dark" asp-area="" asp-controller="ManageWorkshop" asp-action="DeleteWorkshopAccount">Delete Account</a>
+                            </li>
+                        }
+                        <li class="list-group-item red">
+                            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    }
+    else
+    {
+
+    }
+
+    <h1>About Page</h1>
+
+    <script src="~/js/main.js"></script>
+    <script src="~/js/index.js"></script>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/all.min.js"></script>
+</body>
+
+</html>

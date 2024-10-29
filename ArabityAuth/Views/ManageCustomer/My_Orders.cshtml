@@ -1,0 +1,208 @@
+﻿@using Microsoft.AspNetCore.Authorization;
+@using Microsoft.AspNetCore.Identity
+@inject ArabityAuth.Data.ApplicationDbContext _context
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@inject IAuthorizationService Athorize
+@{
+    AuthorizationResult authorizationResult = await Athorize.AuthorizeAsync(User, "CustomerRole");
+}
+@{
+    AuthorizationResult authorizationResult1 = await Athorize.AuthorizeAsync(User, "StoreRole");
+}
+@{
+    AuthorizationResult authorizationResult2 = await Athorize.AuthorizeAsync(User, "WorkshopRole");
+}
+@{
+    Layout = "_None";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/all.min.css">
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:wght@100;300;400;500;700;900&family=Sigmar+One&display=swap" rel="stylesheet">
+    <title>Arabity</title>
+</head>
+<body>
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <header class="header d-flex row justify-content-around align-items-baseline">
+            <img class="navbar-brand col-3 logo" src="~/image/Logo.png" style="width: 175px;margin-top: auto;margin-bottom: auto;margin-left: -100px;" />
+            <nav class="header-nav col-6 d-flex justify-content-end align-items-center">
+                <div class="dropdown m-2">
+                    <button id="card-btn" class="btn shop" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-three-dots" viewBox="0 0 16 16">
+                            <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                        </svg>
+                    </button>
+                    <ul class="dropdown-menu shop-menu menu">
+                        <li class="list-group-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Workshops" asp-action="AllWorkshops">Workshops</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Stores" asp-action="AllStores">Stores</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="dropdown m-2">
+                    <button id="card-btn" class="btn shop dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img class="acount-image" src="~/Uploads/@ViewBag.img" alt="">
+                    </button>
+                    <ul class="dropdown-menu shop-menu menu">
+                        @if (authorizationResult.Succeeded)
+                        {
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageCustomer" asp-action="ViewCustomerData">Personal Data</a>
+                            </li>
+                        }
+
+                        @if (authorizationResult1.Succeeded)
+                        {
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageStore" asp-action="ViewStoreData">Personal Data</a>
+                            </li>
+                        }
+
+                        @if (authorizationResult2.Succeeded)
+                        {
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageWorkshop" asp-action="ViewWorkshopData">Personal Data</a>
+                            </li>
+                        }
+
+                        <li class="list-group-item red">
+                            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/ChangePassword">Change Password</a>
+                        </li>
+
+                        @if (authorizationResult.Succeeded)
+                        {
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageCustomer" asp-action="UpdateCustomerData">Update Data </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a id="deleteAccount" class="nav-link text-dark">Delete Account</a>
+                                <a id="delete" class="d-none nav-link text-dark" asp-area="" asp-controller="ManageCustomer" asp-action="DeleteCustomerAccount">Delete Account</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageCustomer" asp-action="Favourite">Favourites</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageCustomer" asp-action="My_Orders">My Orders</a>
+                            </li>
+                        }
+                        @if (authorizationResult1.Succeeded)
+                        {
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageStore" asp-action="UpdateStoreData">Update Data</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a id="deleteAccount" class="nav-link text-dark">Delete Account</a>
+                                <a id="delete" class="d-none d-none nav-link text-dark" asp-area="" asp-controller="ManageStore" asp-action="DeleteStoreAccount">Delete Account</a>
+                            </li>
+                        }
+                        @if (authorizationResult2.Succeeded)
+                        {
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageWorkshop" asp-action="UpdateWorkshopData">Update Data</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a id="deleteAccount" class="nav-link text-dark">Delete Account</a>
+                                <a id="delete" class="d-none nav-link text-dark" asp-area="" asp-controller="ManageWorkshop" asp-action="DeleteWorkshopAccount">Delete Account</a>
+                            </li>
+                        }
+                        <li class="list-group-item red">
+                            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    }
+    else
+    {
+
+    }
+
+     <div class="main d-flex row col-12">
+        <h1 class="my-3 text-center" style="color: cadetblue;width:100%;">My Orders</h1>
+        <div class="sections-container d-flex col-12 justify-content-evenly">
+            <div class="section my-3 col-lg-10 col-md-10 col-sm-12 projects-section">
+                <table class="col-12">
+                    <thead>
+                        <tr>
+                            <td>Order Numbre</td>
+                            <td>Order Date</td>
+                            <td>Products</td>
+                            <td>Products Quantity</td>
+                            <td>Total Price</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (Order item in @ViewBag.Orders)
+                        {
+                            List<OrderProduct> PrOrder = _context.OrderProducts.Where(m => m.OrderNumbre == item.OrderNumbre).ToList();
+                            List<string> ProductName = new List<string>();
+                            List<int> ProductQuantity = new List<int>();
+                            double totalPrice = 0;
+                            foreach (OrderProduct product in PrOrder)
+                            {
+                                string UserId = _context.StoreProducts.Where(m => m.Parcode == product.ProductParcode).Select(o => o.StoreId).FirstOrDefault();
+                                if (UserId == @ViewBag.userid)
+                                {
+                                    string name = _context.StoreProducts.Where(m => m.Parcode == product.ProductParcode).Select(o => o.Name).FirstOrDefault();
+                                    ProductName.Add(name);
+                                    ProductQuantity.Add(product.ProductQuantity);
+                                    totalPrice += product.ProductPrice * product.ProductQuantity;
+                                } 
+                            }
+                            <tr>
+                                <td>@item.OrderNumbre</td>
+                                <td>@item.OrderDate</td>
+                                <td class="products-cell">
+                                    @foreach (string itemName in ProductName)
+                                    {
+                                        <h6>@itemName</h6> 
+                                    }
+                                </td>
+                                <td>
+                                    @foreach (int itemQuantity in ProductQuantity)
+                                    {
+                                        <h6>@itemQuantity</h6> 
+                                    }
+                                </td>
+                                <td>@totalPrice LE</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/js/dashboard.js"></script>
+    <script src="~/js/main.js"></script>
+    <script src="~/js/index.js"></script>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/all.min.js"></script>
+</body>
+</html>

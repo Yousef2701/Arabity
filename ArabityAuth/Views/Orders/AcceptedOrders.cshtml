@@ -1,0 +1,107 @@
+﻿@model ArabityAuth.ViewModel.AcceptedOrdersVM
+@inject ArabityAuth.Data.ApplicationDbContext _context
+
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/dashboard.css" />
+    <title class="text-capitalize">Orders</title>
+    <style>
+        .total, .total:hover {
+            background-color: black;
+        }
+
+        .accepted, .accepted:hover {
+            background-color: var(--green-color);
+        }
+
+        .pending, .pending:hover {
+            background-color: orange;
+        }
+
+        .done, .done:hover {
+            background-color: rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+    <div class="main d-flex row col-12">
+        <h1 class="my-3 text-center" style="color: cadetblue;width:100%;">Accepted Orders</h1>
+        <div class="sections-container d-flex col-12 justify-content-evenly">
+            <div class="section my-3 col-lg-10 col-md-10 col-sm-12 projects-section">
+                <table class="col-12">
+                    <thead>
+                        <tr>
+                            <td>Client</td>
+                            <td>Order Numbre</td>
+                            <td>Order Date</td>
+                            <td>Products</td>
+                            <td>Products Quantity</td>
+                            <td>Total Price</td>
+                            <td>Status</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (OrderStore item in @ViewBag.ACOrders)
+                        {
+                            List<OrderProduct> PrOrder = _context.OrderProducts.Where(m => m.OrderNumbre == item.OrderNumbre).ToList();
+                            List<string> ProductName = new List<string>();
+                            List<int> ProductQuantity = new List<int>();
+                            double totalPrice = 0;
+                            foreach (OrderProduct product in PrOrder)
+                            {
+                                string UserId = _context.StoreProducts.Where(m => m.Parcode == product.ProductParcode).Select(o => o.StoreId).FirstOrDefault();
+                                if (UserId == @ViewBag.userid)
+                                {
+                                    string name = _context.StoreProducts.Where(m => m.Parcode == product.ProductParcode).Select(o => o.Name).FirstOrDefault();
+                                    ProductName.Add(name);
+                                    ProductQuantity.Add(product.ProductQuantity);
+                                    totalPrice += product.ProductPrice * product.ProductQuantity;
+                                }
+                            }
+                            <tr>
+                                <form asp-controller="Orders" asp-action="Pend">
+                                    <input hidden asp-for="OrderNo" value="@item.OrderNumbre" />
+                                <td>@item.ClintName</td>
+                                <td>@item.OrderNumbre</td>
+                                <td>@item.OrderDate</td>
+                                <td class="products-cell">
+                                        @foreach (string itemName in ProductName)
+                                        {
+                                        <h6>@itemName</h6> <p></p>
+                                        }
+                                </td>
+                                <td>
+                                        @foreach (int itemQuantity in ProductQuantity)
+                                        {
+                                        <h6>@itemQuantity</h6> <p></p>
+                                        }
+                                </td>
+                                <td>@totalPrice LE</td>
+                                <td>
+                                    <input type="submit" class="btn btn-primary Pending" value="Pend" />
+                                </td>
+                                </form>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="~/js/dashboard.js"></script>
+    <script src="~/js/main.js"></script>
+    <script src="~/js/index.js"></script>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/all.min.js"></script>
+</body>
+</html>

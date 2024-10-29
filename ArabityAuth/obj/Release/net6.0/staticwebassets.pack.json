@@ -1,0 +1,1017 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\00.png",
+      "PackagePath": "staticwebassets\\Uploads\\00.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\1.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\1.png",
+      "PackagePath": "staticwebassets\\Uploads\\1.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\10.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\10.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\1_How_to_Replace_a_Radiator_a_radiator.webp",
+      "PackagePath": "staticwebassets\\Uploads\\1_How_to_Replace_a_Radiator_a_radiator.webp"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\2.png",
+      "PackagePath": "staticwebassets\\Uploads\\2.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\23.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\23.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\26.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\26.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\3.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\3.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\3.png",
+      "PackagePath": "staticwebassets\\Uploads\\3.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\4.png",
+      "PackagePath": "staticwebassets\\Uploads\\4.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\5.png",
+      "PackagePath": "staticwebassets\\Uploads\\5.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\6.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\6.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\6.png",
+      "PackagePath": "staticwebassets\\Uploads\\6.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\61DC8Z1ILpL._AC_UF894,1000_QL80_.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\61DC8Z1ILpL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\61X5aCIWRCL._AC_UF894,1000_QL80_.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\61X5aCIWRCL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\61zSv1VnhGL._AC_UF350,350_QL80_.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\61zSv1VnhGL._AC_UF350,350_QL80_.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\61zZpX0P+kL.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\61zZpX0P+kL.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\629-05-0006_s2_01.png",
+      "PackagePath": "staticwebassets\\Uploads\\629-05-0006_s2_01.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\71N6WlZ9fcL.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\71N6WlZ9fcL.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\814Ah1STX-L._AC_UF894,1000_QL80_.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\814Ah1STX-L._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\AdvancedAutoServiceCenters@gmailScreenshot 2023-06-24 122323.png",
+      "PackagePath": "staticwebassets\\Uploads\\AdvancedAutoServiceCenters@gmailScreenshot 2023-06-24 122323.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\AutoPartsPlus@gmailScreenshot 2023-06-24 163051.png",
+      "PackagePath": "staticwebassets\\Uploads\\AutoPartsPlus@gmailScreenshot 2023-06-24 163051.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Brake-Caliper-GettyImages-691429614.webp",
+      "PackagePath": "staticwebassets\\Uploads\\Brake-Caliper-GettyImages-691429614.webp"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\CarFixSolutions@gmailScreenshot 2023-06-24 165908.png",
+      "PackagePath": "staticwebassets\\Uploads\\CarFixSolutions@gmailScreenshot 2023-06-24 165908.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\CarSparesDepot@gmailScreenshot 2023-06-24 170344.png",
+      "PackagePath": "staticwebassets\\Uploads\\CarSparesDepot@gmailScreenshot 2023-06-24 170344.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\ComprehensiveAutoCare@gmailScreenshot 2023-06-24 132912.png",
+      "PackagePath": "staticwebassets\\Uploads\\ComprehensiveAutoCare@gmailScreenshot 2023-06-24 132912.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\DSC_0002.JPG",
+      "PackagePath": "staticwebassets\\Uploads\\DSC_0002.JPG"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\DSC_0005.JPG",
+      "PackagePath": "staticwebassets\\Uploads\\DSC_0005.JPG"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\DSC_0006.JPG",
+      "PackagePath": "staticwebassets\\Uploads\\DSC_0006.JPG"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\DSC_0007 (1).JPG",
+      "PackagePath": "staticwebassets\\Uploads\\DSC_0007 (1).JPG"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\DSC_0009.JPG",
+      "PackagePath": "staticwebassets\\Uploads\\DSC_0009.JPG"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\DSC_0010.JPG",
+      "PackagePath": "staticwebassets\\Uploads\\DSC_0010.JPG"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\DSC_0011.JPG",
+      "PackagePath": "staticwebassets\\Uploads\\DSC_0011.JPG"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\DSC_0019.JPG",
+      "PackagePath": "staticwebassets\\Uploads\\DSC_0019.JPG"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Denso-3-760x500.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Denso-3-760x500.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\DriveLineAutoAccessories@gmailScreenshot 2023-06-24 164336.png",
+      "PackagePath": "staticwebassets\\Uploads\\DriveLineAutoAccessories@gmailScreenshot 2023-06-24 164336.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\DriveLineAutoAccessories@gmailScreenshot 2023-06-24 164728.png",
+      "PackagePath": "staticwebassets\\Uploads\\DriveLineAutoAccessories@gmailScreenshot 2023-06-24 164728.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\EliteAutoMaintenanceCenter@gmailScreenshot 2023-06-24 132433.png",
+      "PackagePath": "staticwebassets\\Uploads\\EliteAutoMaintenanceCenter@gmailScreenshot 2023-06-24 132433.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Engine-Cooling-Valve-car-thermostat-Car-Engine-Coolant-Thermostat-25500-37200-Replacement-Fit-for-Kia-Sedona.jpg_Q90.jpg_.webp",
+      "PackagePath": "staticwebassets\\Uploads\\Engine-Cooling-Valve-car-thermostat-Car-Engine-Coolant-Thermostat-25500-37200-Replacement-Fit-for-Kia-Sedona.jpg_Q90.jpg_.webp"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\ExcellentRepairandMaintenance@gmailScreenshot 2023-06-24 130538.png",
+      "PackagePath": "staticwebassets\\Uploads\\ExcellentRepairandMaintenance@gmailScreenshot 2023-06-24 130538.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\GearheadGarage@gmailScreenshot 2023-06-24 171304.png",
+      "PackagePath": "staticwebassets\\Uploads\\GearheadGarage@gmailScreenshot 2023-06-24 171304.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Hazem@gmailDSC_0005.JPG",
+      "PackagePath": "staticwebassets\\Uploads\\Hazem@gmailDSC_0005.JPG"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\IMG_٢٠٢٣٠١٣١_١٦٢٥٤٩.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\IMG_٢٠٢٣٠١٣١_١٦٢٥٤٩.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Joe66@gmailDSC_0007 (1).JPG",
+      "PackagePath": "staticwebassets\\Uploads\\Joe66@gmailDSC_0007 (1).JPG"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Joe66@gmailDSC_0029 (1).JPG",
+      "PackagePath": "staticwebassets\\Uploads\\Joe66@gmailDSC_0029 (1).JPG"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\MotorPartsHub@gmailScreenshot 2023-06-24 163707.png",
+      "PackagePath": "staticwebassets\\Uploads\\MotorPartsHub@gmailScreenshot 2023-06-24 163707.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\NGK-LFR7AIX.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\NGK-LFR7AIX.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\O2-Sensors.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\O2-Sensors.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\P1030042_compressed.webp",
+      "PackagePath": "staticwebassets\\Uploads\\P1030042_compressed.webp"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\PowerFixAutomotive@gmailScreenshot 2023-06-24 131107.png",
+      "PackagePath": "staticwebassets\\Uploads\\PowerFixAutomotive@gmailScreenshot 2023-06-24 131107.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\PrecisionAutoSupplies@gmailScreenshot 2023-06-24 162725.png",
+      "PackagePath": "staticwebassets\\Uploads\\PrecisionAutoSupplies@gmailScreenshot 2023-06-24 162725.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\ProCareCarService@gmailScreenshot 2023-06-24 131740.png",
+      "PackagePath": "staticwebassets\\Uploads\\ProCareCarService@gmailScreenshot 2023-06-24 131740.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\QuickandTrustedCarRepair@gmailScreenshot 2023-06-24 123325.png",
+      "PackagePath": "staticwebassets\\Uploads\\QuickandTrustedCarRepair@gmailScreenshot 2023-06-24 123325.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\QuickandTrustedCarRepair@gmailpawzer good jook.png",
+      "PackagePath": "staticwebassets\\Uploads\\QuickandTrustedCarRepair@gmailpawzer good jook.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Rayan65@gmail1669490451644.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Rayan65@gmail1669490451644.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\ReliableCarCare@gmailScreenshot 2023-06-24 125737.png",
+      "PackagePath": "staticwebassets\\Uploads\\ReliableCarCare@gmailScreenshot 2023-06-24 125737.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Screenshot 2023-06-24 162725.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-06-24 162725.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Screenshot 2023-06-24 163051.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-06-24 163051.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Screenshot 2023-06-24 163707.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-06-24 163707.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Screenshot 2023-06-24 164336.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-06-24 164336.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Screenshot 2023-06-24 16477548728.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-06-24 16477548728.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Screenshot 2023-06-24 165152.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-06-24 165152.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Screenshot 2023-06-24 165544.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-06-24 165544.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Screenshot 2023-06-24 165908.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-06-24 165908.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Screenshot 2023-06-24 170344.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-06-24 170344.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Screenshot 2023-06-24 170750.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-06-24 170750.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Screenshot 2023-06-24 171304.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-06-24 171304.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Screenshot 2023-06-24 221354.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-06-24 221354.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\Screenshot 2023-06-24 224040.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-06-24 224040.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\SpecializedAutoCare@gmailScreenshot 2023-06-24 133529.png",
+      "PackagePath": "staticwebassets\\Uploads\\SpecializedAutoCare@gmailScreenshot 2023-06-24 133529.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\SpeedyAutoParts@gmailScreenshot 2023-06-24 165544.png",
+      "PackagePath": "staticwebassets\\Uploads\\SpeedyAutoParts@gmailScreenshot 2023-06-24 165544.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\SpeedyCarRepair@gmailScreenshot 2023-06-24 124204.png",
+      "PackagePath": "staticwebassets\\Uploads\\SpeedyCarRepair@gmailScreenshot 2023-06-24 124204.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\SpeedyCarRepair@gmailScreenshot 2023-06-24 1242554804.png",
+      "PackagePath": "staticwebassets\\Uploads\\SpeedyCarRepair@gmailScreenshot 2023-06-24 1242554804.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\TechnicalServiceCenters@gmailScreenshot 2023-06-24 124932.png",
+      "PackagePath": "staticwebassets\\Uploads\\TechnicalServiceCenters@gmailScreenshot 2023-06-24 124932.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\TechnicalServiceCenters@gmailScreenshot 2023-06-24 125115.png",
+      "PackagePath": "staticwebassets\\Uploads\\TechnicalServiceCenters@gmailScreenshot 2023-06-24 125115.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\TechnoFixAutoRepair@gmailpawzer good jook.png",
+      "PackagePath": "staticwebassets\\Uploads\\TechnoFixAutoRepair@gmailpawzer good jook.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\TurboTechParts@gmailScreenshot 2023-06-24 165152.png",
+      "PackagePath": "staticwebassets\\Uploads\\TurboTechParts@gmailScreenshot 2023-06-24 165152.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\WheelsandDealsAutoParts@gmailScreenshot 2023-06-24 170750.png",
+      "PackagePath": "staticwebassets\\Uploads\\WheelsandDealsAutoParts@gmailScreenshot 2023-06-24 170750.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\automatic-transmission-fluid-synthetic-grouping-2020-fb-og.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\automatic-transmission-fluid-synthetic-grouping-2020-fb-og.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\csm_Evamo-commercial-vehicles-power-steering-pump-FN4_a6ea1ecf39.webp",
+      "PackagePath": "staticwebassets\\Uploads\\csm_Evamo-commercial-vehicles-power-steering-pump-FN4_a6ea1ecf39.webp"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\download.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\download.jpeg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\download_20210420_070743.webp",
+      "PackagePath": "staticwebassets\\Uploads\\download_20210420_070743.webp"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\error.png",
+      "PackagePath": "staticwebassets\\Uploads\\error.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\iStock-487923778 (1).jpg",
+      "PackagePath": "staticwebassets\\Uploads\\iStock-487923778 (1).jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\iStock-487923778.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\iStock-487923778.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\monoblock-submersible-pump-500x500.webp",
+      "PackagePath": "staticwebassets\\Uploads\\monoblock-submersible-pump-500x500.webp"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\p1.png",
+      "PackagePath": "staticwebassets\\Uploads\\p1.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\p2.png",
+      "PackagePath": "staticwebassets\\Uploads\\p2.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\part-emissions-egr-valve-uk.webp",
+      "PackagePath": "staticwebassets\\Uploads\\part-emissions-egr-valve-uk.webp"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\pawzer good jook.pngahmedelseiny2171@gmail.com",
+      "PackagePath": "staticwebassets\\Uploads\\pawzer good jook.pngahmedelseiny2171@gmail.com"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\pawzer good jook.pngahmedosama23658511@gmaile.com",
+      "PackagePath": "staticwebassets\\Uploads\\pawzer good jook.pngahmedosama23658511@gmaile.com"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\Uploads\\sum-250111_xl.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\sum-250111_xl.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\css\\contact-style.css",
+      "PackagePath": "staticwebassets\\css\\contact-style.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\1.jpg",
+      "PackagePath": "staticwebassets\\image\\1.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\10.jpg",
+      "PackagePath": "staticwebassets\\image\\10.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\11.jpg",
+      "PackagePath": "staticwebassets\\image\\11.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\12.jpg",
+      "PackagePath": "staticwebassets\\image\\12.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\1669490451644.jpg",
+      "PackagePath": "staticwebassets\\image\\1669490451644.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\17.jpg",
+      "PackagePath": "staticwebassets\\image\\17.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\18.jpg",
+      "PackagePath": "staticwebassets\\image\\18.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\19.jpg",
+      "PackagePath": "staticwebassets\\image\\19.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\2.jpg",
+      "PackagePath": "staticwebassets\\image\\2.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\20.jpg",
+      "PackagePath": "staticwebassets\\image\\20.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\21.jpg",
+      "PackagePath": "staticwebassets\\image\\21.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\22.jpg",
+      "PackagePath": "staticwebassets\\image\\22.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\23.jpg",
+      "PackagePath": "staticwebassets\\image\\23.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\24.jpg",
+      "PackagePath": "staticwebassets\\image\\24.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\25.jpg",
+      "PackagePath": "staticwebassets\\image\\25.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\26.jpg",
+      "PackagePath": "staticwebassets\\image\\26.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\27.jpg",
+      "PackagePath": "staticwebassets\\image\\27.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\28.jpg",
+      "PackagePath": "staticwebassets\\image\\28.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\29.jpg",
+      "PackagePath": "staticwebassets\\image\\29.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\3.jpg",
+      "PackagePath": "staticwebassets\\image\\3.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\30.jpg",
+      "PackagePath": "staticwebassets\\image\\30.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\31.jpg",
+      "PackagePath": "staticwebassets\\image\\31.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\32.jpg",
+      "PackagePath": "staticwebassets\\image\\32.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\33.jpg",
+      "PackagePath": "staticwebassets\\image\\33.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\34.jpg",
+      "PackagePath": "staticwebassets\\image\\34.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\35.jpg",
+      "PackagePath": "staticwebassets\\image\\35.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\36.jpg",
+      "PackagePath": "staticwebassets\\image\\36.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\37.jpg",
+      "PackagePath": "staticwebassets\\image\\37.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\38.jpg",
+      "PackagePath": "staticwebassets\\image\\38.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\39.jpg",
+      "PackagePath": "staticwebassets\\image\\39.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\4.jpg",
+      "PackagePath": "staticwebassets\\image\\4.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\40.jpg",
+      "PackagePath": "staticwebassets\\image\\40.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\41.jpg",
+      "PackagePath": "staticwebassets\\image\\41.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\42.jpg",
+      "PackagePath": "staticwebassets\\image\\42.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\43.jpg",
+      "PackagePath": "staticwebassets\\image\\43.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\44.jpg",
+      "PackagePath": "staticwebassets\\image\\44.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\45.jpg",
+      "PackagePath": "staticwebassets\\image\\45.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\5.jpg",
+      "PackagePath": "staticwebassets\\image\\5.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\6.jpg",
+      "PackagePath": "staticwebassets\\image\\6.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\7.jpg",
+      "PackagePath": "staticwebassets\\image\\7.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\8.jpg",
+      "PackagePath": "staticwebassets\\image\\8.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\9.jpg",
+      "PackagePath": "staticwebassets\\image\\9.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\Audi-Logo.wine.svg",
+      "PackagePath": "staticwebassets\\image\\Audi-Logo.wine.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\BMW-Logo.wine.svg",
+      "PackagePath": "staticwebassets\\image\\BMW-Logo.wine.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\Dodge-Logo.wine.svg",
+      "PackagePath": "staticwebassets\\image\\Dodge-Logo.wine.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\Honda-Logo.wine.svg",
+      "PackagePath": "staticwebassets\\image\\Honda-Logo.wine.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\Hyundai_Motor_Group-Logo.wine.svg",
+      "PackagePath": "staticwebassets\\image\\Hyundai_Motor_Group-Logo.wine.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\Kia_Motors-Logo.wine.svg",
+      "PackagePath": "staticwebassets\\image\\Kia_Motors-Logo.wine.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\Logo.png",
+      "PackagePath": "staticwebassets\\image\\Logo.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\Mazda-Logo.wine.svg",
+      "PackagePath": "staticwebassets\\image\\Mazda-Logo.wine.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\Mercedes-Benz-Logo.wine.svg",
+      "PackagePath": "staticwebassets\\image\\Mercedes-Benz-Logo.wine.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\Mitsubishi_Motors-Logo.wine.svg",
+      "PackagePath": "staticwebassets\\image\\Mitsubishi_Motors-Logo.wine.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\Nissan_Motor_India_Private_Limited-Logo.wine.svg",
+      "PackagePath": "staticwebassets\\image\\Nissan_Motor_India_Private_Limited-Logo.wine.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\Subaru-Logo.wine.svg",
+      "PackagePath": "staticwebassets\\image\\Subaru-Logo.wine.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\Suzuki-Logo.wine.svg",
+      "PackagePath": "staticwebassets\\image\\Suzuki-Logo.wine.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\Toyota_Canada_Inc.-Logo.wine.svg",
+      "PackagePath": "staticwebassets\\image\\Toyota_Canada_Inc.-Logo.wine.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\Volkswagen_Commercial_Vehicles-Logo.wine.svg",
+      "PackagePath": "staticwebassets\\image\\Volkswagen_Commercial_Vehicles-Logo.wine.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\Volvo-Logo.wine.svg",
+      "PackagePath": "staticwebassets\\image\\Volvo-Logo.wine.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\artur-aldyrkhanov-_omYGHPwGEU-unsplash.jpg",
+      "PackagePath": "staticwebassets\\image\\artur-aldyrkhanov-_omYGHPwGEU-unsplash.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\cadillac-automobiles-2.svg",
+      "PackagePath": "staticwebassets\\image\\cadillac-automobiles-2.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\chevrolet-10.svg",
+      "PackagePath": "staticwebassets\\image\\chevrolet-10.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\chevrolet-logo5.svg",
+      "PackagePath": "staticwebassets\\image\\chevrolet-logo5.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\ford-8.svg",
+      "PackagePath": "staticwebassets\\image\\ford-8.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\jeep-7.svg",
+      "PackagePath": "staticwebassets\\image\\jeep-7.svg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\laurent-perren-MXCZtETxTpo-unsplash.jpg",
+      "PackagePath": "staticwebassets\\image\\laurent-perren-MXCZtETxTpo-unsplash.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\markus-spiske-6rF_Du5cn1Y-unsplash.jpg",
+      "PackagePath": "staticwebassets\\image\\markus-spiske-6rF_Du5cn1Y-unsplash.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\nathan-trampe-cyIERGMF_1U-unsplash.jpg",
+      "PackagePath": "staticwebassets\\image\\nathan-trampe-cyIERGMF_1U-unsplash.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\samuele-errico-piccarini-N_oLnW2ZotE-unsplash.jpg",
+      "PackagePath": "staticwebassets\\image\\samuele-errico-piccarini-N_oLnW2ZotE-unsplash.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\team-01.png",
+      "PackagePath": "staticwebassets\\image\\team-01.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\team-02.png",
+      "PackagePath": "staticwebassets\\image\\team-02.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\team-03.png",
+      "PackagePath": "staticwebassets\\image\\team-03.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\team-04.png",
+      "PackagePath": "staticwebassets\\image\\team-04.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\team-05.png",
+      "PackagePath": "staticwebassets\\image\\team-05.png"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\valdemars-magone-Rqh-hjFxGgA-unsplash.jpg",
+      "PackagePath": "staticwebassets\\image\\valdemars-magone-Rqh-hjFxGgA-unsplash.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\image\\viktor-theo-7nn15fCDL4w-unsplash.jpg",
+      "PackagePath": "staticwebassets\\image\\viktor-theo-7nn15fCDL4w-unsplash.jpg"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\js\\addproduct.js",
+      "PackagePath": "staticwebassets\\js\\addproduct.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\js\\all.js",
+      "PackagePath": "staticwebassets\\js\\all.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\js\\all.min.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\js\\center.js",
+      "PackagePath": "staticwebassets\\js\\center.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\js\\centercontrol.js",
+      "PackagePath": "staticwebassets\\js\\centercontrol.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\dashboard.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\js\\editproduct.js",
+      "PackagePath": "staticwebassets\\js\\editproduct.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\js\\landing.js",
+      "PackagePath": "staticwebassets\\js\\landing.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\js\\productdetails.js",
+      "PackagePath": "staticwebassets\\js\\productdetails.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\js\\register.js",
+      "PackagePath": "staticwebassets\\js\\register.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\Projects-Copy\\Web Applications\\Arabity-Website\\ArabityAuth\\ArabityAuth\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.ArabityAuth.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.ArabityAuth.props",
+      "PackagePath": "build\\ArabityAuth.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ArabityAuth.props",
+      "PackagePath": "buildMultiTargeting\\ArabityAuth.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.ArabityAuth.props",
+      "PackagePath": "buildTransitive\\ArabityAuth.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

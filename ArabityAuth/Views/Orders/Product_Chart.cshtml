@@ -1,0 +1,27 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/dashboard.css" />
+    <title class="text-capitalize">Dashboard</title>
+</head>
+<body>
+    <div class="charts-card" style="margin: 50px 100px;">
+        <p class="d-none" id="chartValues">111, 32, 405, 32, 34, 102, 411, 155, 302, 204, 102, 150</p>
+        <h2 class="chart-title">@ViewBag.ProductName</h2>
+        <div id="area-chart"></div>
+    </div>
+    <!-- ApexCharts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.5/apexcharts.min.js"></script>
+    <!-- Custom JS -->
+    <script src="~/js/productdetails.js"></script>
+</body>
+</html>

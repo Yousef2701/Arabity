@@ -1,0 +1,67 @@
+﻿@using Microsoft.AspNetCore.Authorization;
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@inject IAuthorizationService Athorize
+@{
+    AuthorizationResult authorizationResult = await Athorize.AuthorizeAsync(User, "CustomerRole");
+}
+@{
+    AuthorizationResult authorizationResult1 = await Athorize.AuthorizeAsync(User, "StoreRole");
+}
+@{
+    AuthorizationResult authorizationResult2 = await Athorize.AuthorizeAsync(User, "WorkshopRole");
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ArabityAuth</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/all.min.css">
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:wght@100;300;400;500;700;900&family=Sigmar+One&display=swap" rel="stylesheet">
+    <style>
+        footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            background: var(--main-color);
+            color: white !important;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div>
+       
+        <ul class="navbar-nav">
+                @if (SignInManager.IsSignedIn(User))
+                {
+                     
+                }
+                else
+                {
+                    <header class="header d-flex row justify-content-around align-items-baseline">
+                         <img class="navbar-brand col-3 logo" src="~/image/Logo.png" style="width: 175px;margin-top: auto;margin-bottom: auto;margin-left: -100px;" />
+                         <nav class="header-nav col-6 d-flex justify-content-end align-items-center">
+                            <partial name="_LoginPartial" />
+                         </nav>
+                    </header>
+                }
+        </ul>
+
+
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+ 
+</body>
+</html>
+

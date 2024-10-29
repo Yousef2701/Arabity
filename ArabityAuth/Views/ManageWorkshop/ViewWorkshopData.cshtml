@@ -1,0 +1,158 @@
+﻿@model Workshop
+
+@using Microsoft.AspNetCore.Authorization;
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@inject IAuthorizationService Athorize
+@{
+    AuthorizationResult authorizationResult = await Athorize.AuthorizeAsync(User, "CustomerRole");
+}
+@{
+    AuthorizationResult authorizationResult1 = await Athorize.AuthorizeAsync(User, "StoreRole");
+}
+@{
+    AuthorizationResult authorizationResult2 = await Athorize.AuthorizeAsync(User, "WorkshopRole");
+}
+@{
+    Layout = "_None";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/all.min.css">
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:wght@100;300;400;500;700;900&family=Sigmar+One&display=swap" rel="stylesheet">
+    <title>center control</title>
+</head>
+<body>
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <header class="header d-flex row justify-content-around align-items-baseline">
+            <img class="navbar-brand col-3 logo" src="~/image/Logo.png" style="width: 175px;margin-top: auto;margin-bottom: auto;margin-left: -100px;" />
+            <nav class="header-nav col-6 d-flex justify-content-end align-items-center">
+                <div class="dropdown m-2">
+                    <button id="card-btn" class="btn shop dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img class="acount-image" src="~/Uploads/@ViewBag.Workshop.ImageUrl" alt="">
+                    </button>
+                    <ul class="dropdown-menu shop-menu menu">
+                        @if (authorizationResult.Succeeded)
+                        {
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageCustomer" asp-action="ViewCustomerData">Personal Data</a>
+                            </li>
+                        }
+
+                        @if (authorizationResult1.Succeeded)
+                        {
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageStore" asp-action="ViewStoreData">Personal Data</a>
+                            </li>
+                        }
+
+                        @if (authorizationResult2.Succeeded)
+                        {
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageWorkshop" asp-action="ViewWorkshopData">Personal Data</a>
+                            </li>
+                        }
+
+                        <li class="list-group-item red">
+                            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/ChangePassword">Change Password</a>
+                        </li>
+
+                        @if (authorizationResult.Succeeded)
+                        {
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageCustomer" asp-action="UpdateCustomerData">Update Data </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a id="deleteAccount" class="nav-link text-dark">Delete Account</a>
+                                <a id="delete" class="d-none nav-link text-dark" asp-area="" asp-controller="ManageCustomer" asp-action="DeleteCustomerAccount">Delete Account</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageCustomer" asp-action="Favourite">Favourites</a>
+                            </li>
+                        }
+                        @if (authorizationResult1.Succeeded)
+                        {
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageStore" asp-action="UpdateStoreData">Update Data</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a id="deleteAccount" class="nav-link text-dark">Delete Account</a>
+                                <a id="delete" class="d-none d-none nav-link text-dark" asp-area="" asp-controller="ManageStore" asp-action="DeleteStoreAccount">Delete Account</a>
+                            </li>
+                        }
+                        @if (authorizationResult2.Succeeded)
+                        {
+                            <li class="list-group-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ManageWorkshop" asp-action="UpdateWorkshopData">Update Data</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a id="deleteAccount" class="nav-link text-dark">Delete Account</a>
+                                <a id="delete" class="d-none nav-link text-dark" asp-area="" asp-controller="ManageWorkshop" asp-action="DeleteWorkshopAccount">Delete Account</a>
+                            </li>
+                        }
+                        <li class="list-group-item red">
+                            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    }
+    else
+    {
+
+    }
+
+    <div class="scroller"></div>
+    <div class="center-page-container-2">
+        <div class="workshop-card">
+            <img src="~/Uploads/@ViewBag.Workshop.ImageUrl" alt="Workshop Image">
+            <h2>@ViewBag.Workshop.Name </h2>
+            <p>@ViewBag.Workshop.Description</p>
+            <div class="workshop-details">
+                <p><strong> Address :</strong> @ViewBag.Workshop.Governorate - @ViewBag.Workshop.City</p>
+                <p>
+                    <strong>Phone Numbre :</strong>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill"
+                         viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                              d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg> @ViewBag.Workshop.PhoneNumbre
+                </p>
+                <p><strong>Work Time :</strong>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                    </svg> @ViewBag.Workshop.WorkTime
+                </p>
+                <p><strong>Workshop Type :</strong>@ViewBag.Workshop.Type</p>
+                <p><strong>Gmail Address:</strong>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                        <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z" />
+                        <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z" />
+                    </svg> @ViewBag.Workshop.GmailAddress
+                </p>
+            </div>
+            <form asp-action="UpdateWorkshopData" method="get">
+                <input type="submit" value="Update Data" class="btn btn-primary" />
+            </form>
+        </div>
+
+        <script src="~/js/main.js"></script>
+        <script src="~/js/centercontrol.js"></script>
+        <script src="~/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/all.min.js"></script>
+</body>
+</html>

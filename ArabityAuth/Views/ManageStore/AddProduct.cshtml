@@ -1,0 +1,106 @@
+﻿@model ArabityAuth.ViewModel.ProductVM
+
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/all.min.css">
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:wght@100;300;400;500;700;900&family=Sigmar+One&display=swap" rel="stylesheet">
+    <title>Update center info</title>
+</head>
+<body>
+    <div class="scroller"></div>
+    <form class="needs-validation container p-5" novalidate="" asp-action="AddProduct"  method="post" enctype="multipart/form-data">
+        <div class="row g-3 justify-content-center my-2" style="margin-left: auto;margin-right: auto;">
+            <h2 class="col-8 my-3 text-center" style="color: cadetblue;">Add Product</h2>
+            <div class="col-8">
+                <label asp-for="Parcode" class="form-label">Parcode</label>
+                <div class="input-group has-validation">
+                    <input asp-for="Parcode" type="text" class="form-control" placeholder="Parcode" required="">
+                    <div class="invalid-feedback">
+                        Your discription is required.
+                    </div>
+                </div>
+            </div>
+            <div class="col-8">
+                <label asp-for="Name" class="form-label">Product Name</label>
+                <div class="input-group has-validation">
+                    <input asp-for="Name" type="text" class="form-control" id="discription" placeholder="Product Name" required=""></input>
+                    <div class="invalid-feedback">
+                        Your discription is required.
+                    </div>
+                </div>
+            </div>
+            <div class="col-8">
+                <label asp-for="Discreption" class="form-label">Discreption</label>
+                <div class="input-group has-validation">
+                    <input asp-for="Discreption" type="text" class="form-control" id="hours" placeholder="Discreption" required="">
+                    <div class="invalid-feedback">
+                        Your hours is required.
+                    </div>
+                </div>
+            </div>
+            <div class="col-8">
+                <label asp-for="Price" class="form-label">Price</label>
+                <input asp-for="Price" type="text" class="form-control" id="address" placeholder="Price" required="">
+                <div class="invalid-feedback">
+                    Please enter your shipping address.
+                </div>
+            </div>
+            <div class="col-8">
+                <label asp-for="Discount" class="form-label">Discount Percent </label>
+                <input asp-for="Discount" type="tel" class="form-control" id="phone" placeholder="0%" required="">
+                <div class="invalid-feedback">
+                    Please enter your shipping phone.
+                </div>
+            </div>
+            <div class="col-8">
+                <label asp-for="NumberOfPeices" class="form-label">  Number Of Peices Available </label>
+                <input asp-for="NumberOfPeices" type="tel" class="form-control" id="phone" placeholder="Number Of Peices Available" required="">
+                <div class="invalid-feedback">
+                    Please enter your shipping phone.
+                </div>
+            </div>
+            <div class=" d-none col-8">
+                <label asp-for="DateOfPublish" class="form-label"> Date Of Publish  </label>
+                <input asp-for="DateOfPublish" type="tel" class="form-control" id="date" required="">
+                <div class="invalid-feedback">
+                    Please enter your shipping phone.
+                </div>
+            </div>
+            <div class="col-8">
+                <label asp-for="MadeIn" class="form-label">  Made In </label>
+                <input asp-for="MadeIn" type="tel" class="form-control" id="phone" placeholder="Egypt..." required="">
+                <div class="invalid-feedback">
+                    Please enter your shipping phone.
+                </div>
+            </div>
+            <div class="col-8">
+                <label asp-for="Model" class="form-label">  Car Model </label>
+                <input asp-for="Model" type="tel" class="form-control" id="phone" placeholder="Toyota - Corola 2018" required="">
+                <div class="invalid-feedback">
+                    Please enter your shipping phone.
+                </div>
+            </div>
+            <div class="col-8">
+                <input type="file" asp-for="ImageFile" enctype="multipart/form-data" accept="image/jpg" />
+            </div>
+            <div class="col-8 d-flex justify-content-center">
+                <input asp-action="AddProduct" type="submit" value="Add"  class="btn btn-primary col-5 m-3" />
+                <a asp-action="ViewStoreData" class="btn btn-secondary col-5 m-3">Cancel</a>
+            </div>
+        </div>
+    </form>
+    <script src="~/js/addproduct.js"></script>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/all.min.js"></script>
+</body>
+</html>

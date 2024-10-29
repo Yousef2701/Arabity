@@ -1,0 +1,60 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+      <link rel="stylesheet" href="~/css/style.css">
+  <link rel="stylesheet" href="~/css/all.min.css">
+  <link rel="stylesheet" href="~/css/bootstrap.min.css">
+  <title>Register</title>
+</head>
+<body class="register">
+   
+    <form class="needs-validation container p-5" novalidate="" id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+        <div class="row g-3 justify-content-center my-2">
+            <h2 class="col-8 my-3 text-center" style="color: cadetblue;">Create New Account</h2>
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="col-8">
+                    <label asp-for="Input.Email" class="form-label">Email</label>
+                    <input asp-for="Input.Email" id="username" class="form-control" aria-required="true" placeholder="you@arabity.com" />
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                </div>
+                <div class="col-8">
+                    <label asp-for="Input.Password" class="form-label">Password</label>
+                    <input asp-for="Input.Password" class="form-control" aria-required="true" placeholder="Password" />       
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+                <div class="col-8">
+                    <label asp-for="Input.ConfirmPassword" class="form-label">Confirm Password</label>
+                    <input asp-for="Input.ConfirmPassword" class="form-control" aria-required="true" placeholder="Confirm Password" />
+                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                </div>
+                <div class="col-8">
+                    <label asp-for="Input.AccountType" class="form-label">Account Type</label>
+                    <select asp-for="Input.AccountType" class="form-select" aria-label="Default select example">
+                        <option value="Customer">Customer</option>
+                        <option value="Store">Store</option>
+                        <option value="Workshop">Workshop</option>
+                    </select>
+                </div>
+            <button id="registerSubmit" type="submit" class="contact my-5 col-5">Register</button>
+        </div>
+    </form>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+    <script src="~/js/register.js"></script>
+    <script src="~/js/landing.js"></script>
+    <script src="~/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/all.min.js"></script>
+</body>
+
+</html>
+

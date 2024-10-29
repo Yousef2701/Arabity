@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://win5058.site4now.net:21/arabity</_PublishTargetUrl>
+    <History>False|2023-06-04T17:46:20.5505977Z;False|2023-06-04T20:23:27.4040081+03:00;False|2023-06-04T19:37:53.4437853+03:00;</History>
+  </PropertyGroup>
+</Project>
