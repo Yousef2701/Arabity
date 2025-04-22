@@ -135,8 +135,10 @@ namespace ArabityAuth.Controllers
             else
                 status = false;
 
+            int count = _context.StoreProducts.Where(m => m.StoreId == userId).Count() + 1;
+
             var image = new Tools(_Environment);
-            string imageUrl = image.AddImages(model1.ImageFile, model1.ImageName);
+            string imageUrl = image.AddImages(model1.ImageFile, userId + count);
 
             var storeProduct = new StoreProduct
             {

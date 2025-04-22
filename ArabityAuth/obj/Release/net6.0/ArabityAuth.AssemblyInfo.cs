@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArabityAuth")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+975f1a8e15c5e147b6ed7eec8a79a84d58c63f57")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArabityAuth")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArabityAuth")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

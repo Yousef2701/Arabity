@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Arabity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5767BA6F-64A8-4863-92DD-1AC2FB869962}|ArabityAuth\\ArabityAuth.csproj|g:\\arabity\\arabityauth\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5767BA6F-64A8-4863-92DD-1AC2FB869962}|ArabityAuth\\ArabityAuth.csproj|solutionrelative:arabityauth\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\Arabity\\ArabityAuth\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArabityAuth\\Views\\Home\\Index.cshtml",
+              "ToolTip": "G:\\Arabity\\ArabityAuth\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ArabityAuth\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T23:01:51.676Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

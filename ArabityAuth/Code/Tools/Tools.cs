@@ -16,7 +16,7 @@
             { return  "Defult User Image"+username; }
             string imageUrl = imagefile.FileName;
             string uploads = Path.Combine(Environment.WebRootPath, "Uploads");
-            string path = Path.Combine(uploads, username.Substring(0,username.Length-4) + imageUrl);
+            string path = Path.Combine(uploads, username + imageUrl);
 
             if (System.IO.File.Exists(imageUrl))
             {
@@ -27,9 +27,9 @@
             }
             else
             { imagefile.CopyTo(new FileStream(path, FileMode.Create)); }
-            
-           
-            return username.Substring(0, username.Length - 4) + imageUrl;
+
+
+            return username + imageUrl;
         }
         public string UpdateImages(IFormFile imagefile,string imagename)
         {

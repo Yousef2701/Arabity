@@ -166,14 +166,10 @@
                             double totalPrice = 0;
                             foreach (OrderProduct product in PrOrder)
                             {
-                                string UserId = _context.StoreProducts.Where(m => m.Parcode == product.ProductParcode).Select(o => o.StoreId).FirstOrDefault();
-                                if (UserId == @ViewBag.userid)
-                                {
-                                    string name = _context.StoreProducts.Where(m => m.Parcode == product.ProductParcode).Select(o => o.Name).FirstOrDefault();
-                                    ProductName.Add(name);
-                                    ProductQuantity.Add(product.ProductQuantity);
-                                    totalPrice += product.ProductPrice * product.ProductQuantity;
-                                } 
+                                string name = _context.StoreProducts.Where(m => m.Parcode == product.ProductParcode).Select(o => o.Name).FirstOrDefault();
+                                ProductName.Add(name);
+                                ProductQuantity.Add(product.ProductQuantity);
+                                totalPrice += product.ProductPrice * product.ProductQuantity;
                             }
                             <tr>
                                 <td>@item.OrderNumbre</td>

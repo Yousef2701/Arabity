@@ -84,26 +84,8 @@ namespace ArabityAuth.Controllers
             var userId = _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             var CurrentCustomer = _context.Customers.Find(userId);
             ViewBag.Customer = CurrentCustomer;
+            ViewBag.img = _context.Customers.Where(c => c.Id == userId).Select(i => i.ImageUrl).FirstOrDefault();
 
-            // Header-Cart Logic
-            var type = _context.UserClaims.Where(m => m.UserId == userId).Select(o => o.ClaimType).FirstOrDefault();
-            string img;
-
-            if (type == "Customer")
-            {
-                img = _context.Customers.Where(c => c.Id == userId).Select(i => i.ImageUrl).FirstOrDefault();
-                ViewBag.img = img;
-            }
-            else if (type == "Store")
-            {
-                img = _context.Stores.Where(c => c.Id == userId).Select(i => i.ImageUrl).FirstOrDefault();
-                ViewBag.img = img;
-            }
-            else if (type == "Workshop")
-            {
-                img = _context.Workshops.Where(c => c.Id == userId).Select(i => i.ImageUrl).FirstOrDefault();
-                ViewBag.img = img;
-            }
             List<Cart> cartItemsParcode = _context.Carts.Where(m => m.CustomerId == userId).ToList();
             List<CartVM> cartVMs = new List<CartVM>();
             double TL = 0;
@@ -128,7 +110,7 @@ namespace ArabityAuth.Controllers
             ViewBag.Total = TL;
             IdVM idVM = new IdVM();
 
-            return View(idVM);
+            return View();
         }
 
         [HttpGet]
@@ -316,8 +298,10 @@ namespace ArabityAuth.Controllers
         public IActionResult My_Orders()
         {
             var userId = _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            List<Order> MyOrders = _context.Orders.Where(m => m.clientName== userId).ToList();
+            var user = _context.Users.Find(userId);
+            List<Order> MyOrders = _context.Orders.Where(m => m.clientGmail == user.Email).ToList();
             ViewBag.Orders = MyOrders;
+            ViewBag.img = _context.Customers.Where(m => m.Id == userId).Select(m => m.ImageUrl).FirstOrDefault();
             return View();
         }
 
